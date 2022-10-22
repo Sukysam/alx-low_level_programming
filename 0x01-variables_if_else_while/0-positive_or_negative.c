@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 /**
@@ -11,7 +12,7 @@ int main(void)
 	int n;
 
 	srand(time(0));
-	n = rand(0) - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 	printf("The number is greater than zero\n");
