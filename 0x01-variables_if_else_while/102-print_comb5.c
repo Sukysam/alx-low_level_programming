@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int d1, d2, = 0;
+	int d1, d2;
 
 	for (d1 = 0; d1 <= 98; d1++)
 	{
