@@ -12,7 +12,7 @@ int main(void)
 	int i = 0;
 	char l;
 
-	while (i >= 0 && i <= 9 )
+	while (i >= 0 && i <= 9)
 	{
 	putchar((i % 10) + '0');
 	i++;
